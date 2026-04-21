@@ -27,7 +27,7 @@ Yesarela Febe Manuelita Flores Navajas DNI: 41041662 Lu: 6000 Usuario git: Yesar
 - Archivos HTML → ejercicios con interacción (ejercicio9.html en adelante)
 
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 - JavaScript
 - HTML
