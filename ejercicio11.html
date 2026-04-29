@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejericicio 11</title>
+</head>
+<body>
+    <script>
+        alert(`Calculo del consumo de combustible por kilómetro de un vehículo`);
+        let kilometros = parseFloat(prompt("Kilómetros recorridos: "));
+        //let kilometros = parseInt(prompt("Cálculo de consumo de combustible por kilómetro recorrido de un vehículo\n\nKilómetros recorridos: "));
+        let litros = parseFloat(prompt("Litros de combustible consumidos: "));
+        let consumo = litros / kilometros;
+        document.write(`<h1>Consumo total de combustible por kilómetro recorrido</h1>`)
+        document.write(`<h2>El consumo total para ${litros} litros de combustible usados para ${kilometros} kilómetros recorridos es de: ${consumo}</h2>`);
+        /**alert(`El consumo total de combustible por kilómetro recorrido
+        es de: ${consumo}`);**/
+    </script>
+</body>
+</html>
