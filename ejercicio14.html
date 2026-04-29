@@ -13,17 +13,17 @@
         const duplicar = (arr) => arr.map(num => num * 2);
 
         // Solicitar cantidad de números
-        const cantidad = parseInt(prompt("¿Cuántos números desea ingresar?"));
+        const cantidad = parseInt(prompt(`¿Cuántos números desea ingresar?`));
 
         // Validación básica
         if (isNaN(cantidad) || cantidad <= 0) {
-            document.write("Cantidad inválida.");
+            document.write(`Cantidad inválida.`);
         } else {
             let numeros = [];
 
             // Cargar array
             for (let i = 0; i < cantidad; i++) {
-                const num = parseFloat(prompt(`Ingrese el número ${i + 1}:`));
+                const num = parseFloat(prompt(`Ingrese el numero ${i + 1}:`));
                 numeros.push(num);
             }
 

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 17</title>
+</head>
+
+<body>
+    <script>
+        let contarLetraA = pal => {
+            let cont = 0;
+            for (let i = 0; i < pal.length; i++) {
+                if (pal[i] === "a") { //Para que también cuente "A" la condición debería ser (pal[i] === "a" || pal[i] === "A")
+                    // esta condición tampoco contempla en caso de que la palabra ingresada contenga algún signo de acentuación
+                    cont++;
+                }
+            }
+            return cont;
+        }
+        let palabra = prompt(`Ingrese una palabra y le diremos cuantas "a" contiene: `)
+        document.write(`<h1>Cantidad de "a" </h1>`)
+        document.write(`La cantidad de veces que aparece la letra "a" en "${palabra}" es de: ${contarLetraA(palabra)}`)
+
+    </script>
+
+</body>
+
+</html>
