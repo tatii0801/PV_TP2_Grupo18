@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +8,9 @@
 <body>
     <script>
         alert(`Calculo del consumo de combustible por kilómetro de un vehículo`);
-        let kilometros = parseInt(prompt("Kilómetros recorridos: "));
+        let kilometros = parseFloat(prompt("Kilómetros recorridos: "));
         //let kilometros = parseInt(prompt("Cálculo de consumo de combustible por kilómetro recorrido de un vehículo\n\nKilómetros recorridos: "));
-        let litros = parseInt(prompt("Litros de combustible consumidos: "));
+        let litros = parseFloat(prompt("Litros de combustible consumidos: "));
         let consumo = litros / kilometros;
         document.write(`<h1>Consumo total de combustible por kilómetro recorrido</h1>`)
         document.write(`<h2>${consumo}</h2>`);
