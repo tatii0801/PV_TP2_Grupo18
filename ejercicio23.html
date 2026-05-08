@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 23</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .contenedor {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 350px;
+            text-align: center;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            font-size:16px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        p {
+            font-size: 18px;
+            color: #333;
+            background: #eef;
+            padding: 10px;
+            border-radius: 5px;
+            min-height: 25px;
+        }
+
+    </style>
+</head>
+<body> 
+
+    <div class="contenedor">
+        <h1>Escribe algo</h1>
+
+        <input type="text" id="texto" placeholder="Texto...">
+
+        <p id="resultado"></p>
+    </div>
+
+    <script>
+        const input = document.getElementById('texto');
+        const resultado = document.getElementById('resultado');
+        
+        input.addEventListener('input', () => {
+            resultado.textContent = input.value;
+            if (input.value.length > 20) {
+                resultado.style.backgroundColor = 'tomato';
+            } else {
+                resultado.style.backgroundColor = 'lightblue';
+            }
+        });
+        </script>
+
+</body>
+</html>
