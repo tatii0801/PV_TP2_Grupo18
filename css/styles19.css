@@ -1,0 +1,27 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: beige;
+    padding: 50px 100px;
+}
+
+h1 {
+    font-weight: bold;
+    color: darkblue;
+}
+
+p {
+    font-size: 25px;
+    font-weight: bold;
+    color: blue;
+}
+
+button {
+    padding: 15px 25px;
+    background-color: aqua;
+    color:brown;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    border: lightseagreen;
+    font-size: 20px;
+}
