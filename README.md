@@ -31,7 +31,7 @@ En este trabajo práctico se desarrollaron distintos ejercicios en JavaScript, a
 
 ## Estructura
 
-- Carpeta `js/` → contiene los archivos JavaScript (ejercicio1.js, etc.)
+- Carpeta `practicaJS` → contiene los archivos JavaScript (ejercicio1.js, etc.)
 - Archivos HTML → ejercicios con interacción (ejercicio9.html en adelante)
 
 
