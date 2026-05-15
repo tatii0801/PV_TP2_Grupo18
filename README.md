@@ -32,7 +32,8 @@ En este trabajo práctico se desarrollaron distintos ejercicios en JavaScript, a
 ## Estructura
 
 - Carpeta `practicaJS` → contiene los archivos JavaScript (ejercicio1.js, etc.)
-- Archivos HTML → ejercicios con interacción (ejercicio9.html en adelante)
+- Carpeta `css/` → contiene las hojas de estilos (ejercicos19, ejercicos21, ejercicos22, ejercicos23, ejercicos24, ejercicos25) 
+- Archivos HTML → contienen la estructura e interacción de cada ejercicio (ejercicio9.html en adelante)
 
 
 ## Tecnologías
