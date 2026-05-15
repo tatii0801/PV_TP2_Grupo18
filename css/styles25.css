@@ -1,0 +1,17 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 100px;
+    transition: background-color 1s;
+}
+
+button {
+    padding: 15px 25px;
+    background-color:brown;
+    font-size: 18px;
+    color:whitesmoke;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    border: lightseagreen;
+}

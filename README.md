@@ -19,11 +19,19 @@ Yesarela Febe Manuelita Flores Navajas DNI: 41041662 Lu: 6000 Usuario git: Yesar
 
 ## Descripción
 
-...............
+En este trabajo práctico se desarrollaron distintos ejercicios en JavaScript, aplicando:
+
+- Uso de variables (`let` y `const`)
+- Funciones flecha (arrow functions)
+- Uso de arrays y estructuras de control
+- Interacción con el usuario (`prompt`)
+- Manipulación del DOM
+- Uso de eventos (`click`, `change`, `input`)
+
 
 ## Estructura
 
-- Carpeta `js/` → contiene los archivos JavaScript (ejercicio1.js, etc.)
+- Carpeta `practicaJS` → contiene los archivos JavaScript (ejercicio1.js, etc.)
 - Archivos HTML → ejercicios con interacción (ejercicio9.html en adelante)
 
 
